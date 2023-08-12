@@ -18,9 +18,31 @@ npm install
 yarn install
 pnpm install
 ```
-3. Run the configuration script using your preffered package manager
+3. Run the configuration script using your preferred package manager
 ```bash
 npm run configure
 yarn configure
 pnpm configure
 ```
+## **Folder Structure**
+
+### **adonis-typings**
+In this folder is where the types of your project will stay for example the ambient module for custom name space of your classes.
+
+### **bin**
+In this folder is where the binaries of your package will stay.
+
+### **commands**
+In this folder is where the command classes of your package will stay.
+
+### **providers**
+In this folder is where the service provider classes of your package will stay.
+
+### **src**
+In this folder is where the source code of your package will stay.
+
+### **templates**
+In this folder is where the source code of your package will stay.
+
+#### **instructions**
+In this file is where the instructions for your package will stay.
